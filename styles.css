@@ -1,0 +1,67 @@
+:root {
+  --darkpink: #A40E4C;
+  --purple: #2C2C54;
+  --green: #ACC3A6;
+  --cream: #faf2ec;
+  --orange: #F49D6E;
+}
+
+body {
+  background-color: var(--purple);
+  color: var(--cream);
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+header div.logo-wrapper {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+header img.logo {
+  display: block;
+  max-width: auto;
+  max-height: 100%;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+main .right {
+  margin: 0 6rem;
+}
+
+main .right h1 {
+  font-style: italic;
+  font-size: 6rem;
+  margin: 0;
+}
+
+main .right p {
+  font-size: 1.25rem;
+}
