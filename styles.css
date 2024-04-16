@@ -1,14 +1,14 @@
 :root {
-  --darkpink: #A40E4C;
-  --purple: #2C2C54;
-  --green: #ACC3A6;
+  --darkpink: #a40e4c;
+  --purple: #2c2c54;
+  --green: #acc3a6;
   --cream: #faf2ec;
-  --orange: #F49D6E;
+  --orange: #f49d6e;
 }
 
 body {
   background-color: var(--purple);
-  color: var(--cream);
+  color: var(--green);
 }
 
 .container {
@@ -21,6 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 150px;
+  color: var(--green);
 }
 
 header div.logo-wrapper {
@@ -46,22 +47,28 @@ header nav ul li {
   font-size: 1.5rem;
 }
 
-main {
+.hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
-main .right {
-  margin: 0 6rem;
+.hero .left {
+  margin-right: 8rem;
 }
 
-main .right h1 {
-  font-style: italic;
-  font-size: 6rem;
-  margin: 0;
+.hero .left h1 {
+  font-size: 4rem;
+  margin-top: 0;
 }
 
-main .right p {
-  font-size: 1.25rem;
+.hero .left p {
+  font-size: 1.5rem;
+}
+
+.hero .right {
+}
+
+.hero .right video {
+  width: 100%;
 }
