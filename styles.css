@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: var(--cream);
-  color: var(--green);
+  background-color: var(--white);
+  color: var(--purple);
 }
 
 .container {
