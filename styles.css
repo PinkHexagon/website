@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--purple);
+  background-color: var(--cream);
   color: var(--green);
 }
 
@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 150px;
-  color: var(--green);
+  color: var(--purple);
 }
 
 header div.logo-wrapper {
