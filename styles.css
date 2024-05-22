@@ -74,6 +74,14 @@ header nav ul li {
   width: 100%;
 }
 
+.background {
+  background-color: var(--cream);
+}
+
+.backgroundtwo {
+  background-color: var(--green)
+}
+
 #mobile-nav {
   display: none;
 }
