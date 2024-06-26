@@ -1,0 +1,17 @@
+{
+  "name": "ph-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:build": "tailwind build tailwind.css -o output.css",
+    "css:watch": "tailwind build tailwind.css -o output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.12.8",
+    "tailwindcss": "^3.4.4"
+  }
+}
